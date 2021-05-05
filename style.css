@@ -1,0 +1,104 @@
+/* changes main website background color*/
+body {background-color: coral;}
+
+h1:first-child {
+  color: blue;
+}
+
+/* <! LoVeHAte pseudo usage> */
+a:link {
+  color: #FF0000;
+}
+
+a:visited {
+  color: #00FF00;
+}
+
+a:hover {
+  color: #FF00FF;
+}
+
+a:active {
+  color: #0000FF;
+}
+/*Adds height requirement to image, will be changing all of this later*/
+img{
+  height: 100px
+}  
+/* selecting font type, color, size, and alignment. */ 
+html, h1, h2, p > li {
+  font-family: 'Times New Romaar', Times, serif;
+  color: rgb(102, 57, 57);
+  font-size: 24px;
+  text-align: center;
+}
+
+main > article > header > h2 {
+  color: #232420;
+  font-size: 24px;
+}
+
+main  > article > p {
+  font-size: 18px;
+}
+
+main > article, 
+footer > nav > p {
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+main > article{
+  border-bottom: none;
+}
+
+header > h1 {
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+header > nav {
+  margin: 0 0 10px 10px;
+}
+
+header > nav > a {
+  padding: 0 15px 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #493736;
+}
+
+header> nav a:hover {
+  color: #668284;
+}
+
+nav {
+  width: 300px;
+  margin: auto;
+}
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main > article > p {
+  color: #493736;
+}
+
+main{
+  border: 3px solid #668284;
+  padding: 10px;
+  background-color: #B9D7D9;
+  overflow: hidden;
+}
+
+footer> nav > p {
+  color: #668284;
+  font-size: 16px;
+}
